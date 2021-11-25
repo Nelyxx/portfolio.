@@ -1,0 +1,148 @@
+
+* {		
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+
+body {
+	display: block;
+	font-family: 'Kite One';
+	font-size: 22px;
+	text-align: center;
+	letter-spacing: 1px;
+	height: 2200px;
+	background-image:url("noircube.jpg");
+    background-size:100%;
+    background-attachment:fixed;
+}
+
+/*bouton*/
+#head{
+	position: fixed;
+	margin: auto;
+	width: 100%;
+	opacity: 90%;
+	background: black;
+
+}
+
+#head nav ul li {
+	font-size: 33px;
+	padding: 40px;
+	display: inline-block;
+
+}
+#head nav ul li a{
+	font-size: 30px;
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 4px;
+
+}
+/*bouton animation*/
+#head nav ul li:hover a{
+	color: black;
+	background-color:white;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+
+/*ancre*/
+#bouton{
+	width: 100%;
+	height: 500px;
+	padding-top: 250px;
+	text-decoration: none;
+}
+#bouton nav ul li 	{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+	margin: auto;
+	border-radius: 5px;
+	padding: 10px;
+}
+#bouton nav ul li a{
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 4px;
+}
+
+#bouton nav ul li a:hover {
+	color: black;
+	background-color: white; 
+	text-decoration: none;
+	transition: 0.3s all;
+}
+/*boite film*/
+
+#film{
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 500px;
+	background: black;
+	margin-top: 20px;
+	border-radius: 10px;
+
+}
+#film a img {
+	margin: 1%;
+	float: left;
+	width: 23%;
+	height: 400px;
+	border: gray 3px solid;
+
+}
+
+/*boite jeux*/
+#jeux{
+	clear: both;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 500px;
+	background: black;
+	margin-top: 20px;
+	border-radius: 10px;
+
+}
+#jeux a img{
+	margin: 0.5%;
+	float: left;
+	width: 32%;
+	height: 400px;
+	border: gray 3px solid;
+}
+/*boite galerie*/
+#galerie{
+	clear: both;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 90%;
+	border-radius: 10px;
+	height: 500px;
+	background: black;
+}
+#galerie a img {
+	margin: 0.5%;
+	float: left;
+	width: 32%;
+	height: 400px;
+	border: gray 3px solid;
+
+}
+
+footer {
+
+}
